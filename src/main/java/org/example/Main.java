@@ -10,10 +10,12 @@ public class Main {
 
         count1.incrementInstanceCount();
         count1.incrementInstanceCount();
+
         count2.incrementInstanceCount();
         count2.incrementInstanceCount();
         count2.incrementInstanceCount();
         count2.incrementInstanceCount();
+
         count3.incrementInstanceCount();
 
         Count.incrementTotalCount();
@@ -22,6 +24,8 @@ public class Main {
         Count.incrementTotalCount();
         Count.incrementTotalCount();
 
-        System.out.println("Hello world!");
+        System.out.println(count1);
+        System.out.println(count2);
+        System.out.println(count3);
     }
 }

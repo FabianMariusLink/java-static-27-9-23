@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Count {
     private static int totalCount = 0;
-    private int instanceCount;
+    private int instanceCount = 0;
 
     public static int getTotalCount() {
         return totalCount;

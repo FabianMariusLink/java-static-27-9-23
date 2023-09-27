@@ -18,17 +18,20 @@ public class Main {
 
         count3.incrementInstanceCount();
 
+        count4.incrementInstanceCount();
+
         Count.incrementTotalCount();
         Count.incrementTotalCount();
         Count.incrementTotalCount();
         Count.incrementTotalCount();
         Count.incrementTotalCount();
 
-        System.out.println(count1);
-        System.out.println(count2);
-        System.out.println(count3);
+        System.out.println("Count1: " + count1);
+        System.out.println("Count2: " + count2);
+        System.out.println("Count3: " + count3);
+        System.out.println("Count4: " + count3);
 
-        System.out.println("\n");
+        System.out.println("\nBonusaufgabe");
         System.out.println(Calculator.add(2.56,3.34));
         System.out.println(Calculator.sub(2.56,3.34));
         System.out.println(Calculator.multiplication(2.56,3.34));

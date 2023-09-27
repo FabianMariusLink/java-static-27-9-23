@@ -27,5 +27,11 @@ public class Main {
         System.out.println(count1);
         System.out.println(count2);
         System.out.println(count3);
+
+        System.out.println("\n");
+        System.out.println(Calculator.add(2.56,3.34));
+        System.out.println(Calculator.sub(2.56,3.34));
+        System.out.println(Calculator.multiplication(2.56,3.34));
+        System.out.println(Calculator.division(2.56,3.34));
     }
 }

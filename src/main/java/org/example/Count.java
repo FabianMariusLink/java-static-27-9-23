@@ -45,5 +45,9 @@ public class Count {
                 "instanceCount=" + instanceCount +
                 '}';
     }
+
+    public static int incrementTotalCount(){
+        return totalCount++;
+    }
 }
 

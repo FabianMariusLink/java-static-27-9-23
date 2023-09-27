@@ -42,9 +42,9 @@ public class Count {
 
     @Override
     public String toString() {
-        return "Count{" +
+        return "Count" +
                 "instanceCount=" + instanceCount +
-                '}';
+                ", instanceCount: " + instanceCount;
     }
 
     public static void incrementTotalCount(){

@@ -46,8 +46,13 @@ public class Count {
                 '}';
     }
 
-    public static int incrementTotalCount(){
-        return totalCount++;
+    public static void incrementTotalCount(){
+        totalCount++;
     }
+
+    public void incrementInstanceCount(){
+        this.instanceCount++;
+    }
+
 }
 

@@ -6,9 +6,10 @@ public class Count {
     private static int totalCount = 0;
     private int instanceCount;
 
+    /* NICHT NOTWENDIG DA STATIC private static int totalCount = 0;
     public Count(int instanceCount) {
         this.instanceCount = instanceCount;
-    }
+    }*/
 
     public static int getTotalCount() {
         return totalCount;
